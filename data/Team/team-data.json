@@ -1,0 +1,15 @@
+[
+    {
+        "id": 3,
+        "name": "Samuel Nihoul",
+        "role": "Self-Employed",
+        "image": "team/56298366_682963422153970_4175178875703132160_n.jpg",
+        "social": [
+            {
+                "id": 1,
+                "icon": "linkedin",
+                "link": "https://linkedin.com/in/samuelnihoul"
+            }
+        ]
+    }
+]

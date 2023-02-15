@@ -1,0 +1,34 @@
+{
+    "id": 1,
+    "title": "Karbon Basar",
+    "tagline": "Introducing our NFT Carbon Offset Marketplace:",
+    "text": "We cool down the planet. ",
+    "video": "video/pines.mov",
+    "image": "video/pines.png",
+    "buttons": [
+        {
+            "id": 2,
+            "text": "📉 calculate my footprint ↗️",
+            "link": "https://footprint.wwf.org.uk/",
+            "type": "btn-dark btn-circle"
+        },
+        {
+            "id": 4,
+            "text": "📉 use my country average instead ↗️",
+            "link": "https://imgur.com/a/ZsaAhKh",
+            "type": "btn-dark btn-circle"
+        },
+        {
+            "id": 1,
+            "text": "🌳 arty NFT offsets 🖼️",
+            "link": "https://karbonbasar.harmonia-eko.ooo",
+            "type": "btn-dark btn-circle"
+        },
+        {
+            "id": 3,
+            "text": "💵 sell offsets 🌳",
+            "link": "/contact",
+            "type": "btn-dark btn-circle"
+        }
+    ]
+}

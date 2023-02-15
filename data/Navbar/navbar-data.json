@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Karbon Basar",
+        "link": "https://karbonbasar.harmonia-eko.ooo",
+        "megaMenu": false,
+        "colsTitle": [],
+        "itemsPerCol": 0,
+        "subMenu": []
+    },
+    {
+        "id": 12,
+        "link": "/anomalyMap",
+        "title": "Anomaly Map",
+        "megaMenu": false,
+        "colsTitle": [],
+        "itemsPerCol": 0,
+        "subMenu": []
+    },
+    {
+        "id": 13,
+        "link": "https://preview.chatibot.harmonia-eko.ooo",
+        "title": "Chatibot (Preview)",
+        "megaMenu": false,
+        "colsTitle": [],
+        "itemsPerCol": 0,
+        "subMenu": []
+    },
+    {
+        "id": 2,
+        "title": "About",
+        "link": "/about",
+        "megaMenu": false,
+        "colsTitle": [],
+        "itemsPerCol": 0,
+        "subMenu": []
+    },
+    {
+        "id": 5,
+        "title": "Careers",
+        "link": "/careers",
+        "megaMenu": false,
+        "colsTitle": [],
+        "itemsPerCol": 0,
+        "subMenu": []
+    },
+    {
+        "id": 3,
+        "title": "CONTACT",
+        "link": "/contact",
+        "megaMenu": false,
+        "colsTitle": [],
+        "itemsPerCol": 0,
+        "subMenu": []
+    },
+    {
+        "id": 4,
+        "title": "FAQ",
+        "link": "/faq",
+        "megaMenu": false,
+        "colsTitle": [],
+        "itemsPerCol": 0,
+        "subMenu": []
+    }
+]

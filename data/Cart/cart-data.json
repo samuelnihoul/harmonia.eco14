@@ -1,0 +1,11 @@
+[
+    {
+        "id": "world",
+        "photo": "http://www.abc.net.au/news/image/2013-04-15/9369466-1x1-940x940.jpg",
+        "name": "World",
+        "description": "World news from the ABC.",
+        "price": "0.00",
+        "qty": "1",
+        "currency": "AUD"
+    }
+]

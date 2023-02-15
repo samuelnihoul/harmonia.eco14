@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "value": 9542,
+    "title": "ħ for Climate",
+    "decimals":0
+  },
+  {
+    "id": 2,
+    "value": 34.5,
+    "title": "Tonnes Offset",
+    "decimals":1
+  },
+  {
+    "id": 3,
+    "value": 2,
+    "title": "NFTs issued",
+    "decimals":0
+  },
+  {
+    "id": 4,
+    "value": 4,
+    "title": "Projects Listed",
+    "decimals":0
+  }
+]
