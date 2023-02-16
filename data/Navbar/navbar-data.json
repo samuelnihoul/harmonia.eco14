@@ -27,6 +27,15 @@
         "subMenu": []
     },
     {
+        "id": 14,
+        "link": "https://al-flaisa320230216145550.azurewebsites.net/api/flight",
+        "title": "Al-Flaisa",
+        "megaMenu": false,
+        "colsTitle": [],
+        "itemsPerCol": 0,
+        "subMenu": []
+    },
+    {
         "id": 2,
         "title": "About",
         "link": "/about",
