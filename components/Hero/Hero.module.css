@@ -1,0 +1,41 @@
+.soon-text {
+          font-size: 4rem;
+            position: absolute;
+            bottom: 0%;
+            left: 80%;
+          color: #aaff01;
+        }
+
+        @media screen and (max-width: 768px) {
+          .soontext {
+            font-size: 4rem;
+            display: none;
+          }
+        }
+
+        @media screen and (max-width: 480px) {
+          .soontext {
+            font-size: 2rem;
+            display:none;
+          }
+        }
+.localHero{
+    background-image: url("/assets/images/video/pines.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width: 768px){
+ .karbonMoneta{ 
+ display:none;}
+}
+.karbonMoneta{
+            margin-Top: 2rem;
+            border-Radius: 50%;
+            max-height:20vh; 
+}

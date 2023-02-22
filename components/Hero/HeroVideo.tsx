@@ -1,54 +1,52 @@
 import React from "react";
-import useWindowSize from "../../helpers/GetWindowSize";
+import styles from './hero.module.css';
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
-import { fontSize } from "@mui/system";
-import Image from 'next/image'
 
-const HeroVideo = ({ data }) => {
-  const size = useWindowSize();
+const Hero = ({ data }) => {
+
 
   return (
-    <section className="pt-0 pb-0 bg-video">
-      <div className="hero-text-wrap overlay-bg">
-        <div className="hero-text white-color">
-          <div className="container text-center">
-            <h2 className="white-color font-400 letter-spacing-5" style={{ fontSize: 40, marginTop: '10vh' }}>
-              {data.tagline}
-            </h2>
-            <h1>
-              <a href='karbonbasar.harmonia-eko.ooo' className="white-color font-700" style={{ background: 'linear-gradient(to right,#ffd700, #9140bf)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>{data.title}
-              </a>
-            </h1>
-            <h3 className="white-color font-400 " >{data.text}
-              <br>
-              </br>
-              <b style={{ background: 'linear-gradient(to right,#ffd700,#9140BF)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>Together.
-              </b>
-            </h3>
-            <p className="text-center mt-30">
-              <SliderButtons buttons={data.buttons} /><div style={{ position: 'relative' }}>
-                <img src={'/assets/images/Neon Green Futuristic Twitch Banner.png'} style={{ marginTop: '2rem', borderBlockStyle: 'unset', borderRadius: 50 }}></img><span style={{ position: 'absolute', bottom: '20%', left: '80%', fontSize: '4rem', color: '#aaff01' }}>(soon)</span></div>
-            </p>
-          </div>
-        </div>
+    <section className={styles.localHero}>
+      <div style={{ maxWidth: "700px", textAlign: "center" }}>
+        <h2
+          className="white-color font-400 letter-spacing-5"
+          style={{ fontSize: 40 }}
+        >
+          {data.tagline}
+        </h2>
+        <h1>
+          <a
+            href="karbonbasar.harmonia-eko.ooo"
+            className="white-color font-700"
+            style={{
+              background: "linear-gradient(to right,#ffd700, #9140bf)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            {data.title}
+          </a>
+        </h1>
+        <h3 className="white-color font-400" style={{ marginBottom: "2rem" }}>
+          {data.text}
+          <br />
+          <b
+            style={{
+              background: "linear-gradient(to right,#ffd700,#9140BF)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }}
+          >
+            Together.
+          </b>
+        </h3>
+        <SliderButtons buttons={data.buttons} />
       </div>
-      <div className="homepage-hero-module" style={{ height: size.height + "px" }}>
-        <div className="video-container" >
-          <div className="filter"></div>
-          <video autoPlay loop className="fillWidth"
-            src={"/assets/images/" + data.video}
-          />
-
-          <div className="poster hidden">
-            <img
-              src={"/assets/images/" + data.image}
-              alt="video-img"
-            />
-          </div>
-        </div>
-      </div>
+        <img className={styles.karbonMoneta}
+          src={"/assets/images/Neon Green Futuristic Twitch Banner.png"}
+        />
     </section>
   );
 };
 
-export default HeroVideo;
+export default Hero;
