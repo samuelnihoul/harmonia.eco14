@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './hero.module.css';
+import styles from './Hero.module.css';
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
 
 const Hero = ({ data }) => {
