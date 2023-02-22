@@ -8,14 +8,14 @@
     "buttons": [
         {
             "id": 2,
-            "text": "📉 calculate my footprint ↗️",
+            "text": "📉 calculate my footprint",
             "link": "https://footprint.wwf.org.uk/",
             "type": "btn-dark btn-circle"
         },
       
         {
             "id": 1,
-            "text": "🌳 arty NFT offsets 🖼️",
+            "text": "🌳 arty NFT offsets",
             "link": "https://karbonbasar.harmonia-eko.ooo",
             "type": "btn-dark btn-circle"
         }
