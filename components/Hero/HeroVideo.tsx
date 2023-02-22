@@ -42,9 +42,11 @@ const Hero = ({ data }) => {
         </h3>
         <SliderButtons buttons={data.buttons} />
       </div>
+      <a href='karbonmoneta.harmonia-eko.ooo'>
         <img className={styles.karbonMoneta}
-          src={"/assets/images/Neon Green Futuristic Twitch Banner.png"}
+          src={"/assets/images/KarbonMoneta.png"}
         />
+        </a>
     </section>
   );
 };

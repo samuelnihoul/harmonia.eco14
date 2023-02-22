@@ -35,7 +35,7 @@
  display:none;}
 }
 .karbonMoneta{
-            margin-Top: 2rem;
+            padding-Top: 8rem;
             border-Radius: 50%;
-            max-height:20vh; 
+            align-self:flex-end;
 }
