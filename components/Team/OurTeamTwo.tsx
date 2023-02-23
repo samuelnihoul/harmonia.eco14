@@ -1,15 +1,14 @@
-import React, { forwardRef } from 'react';
 import teamData from "../../data/Team/team-data.json";
 import HeadingSection from '../../components/HeadingSection/HeadingSection';
 import TeamMember from './TeamMember';
-
+import styles from './ourTeamTwo.module.css'
 const OurTeamTwo = ({ title, tagline, children }) => (
     <section className="white-bg" id="team" >
         <div className="container" >
             <div className="row">
                 <HeadingSection title={title} tagline={tagline} classAppend={undefined} font={undefined} children={undefined} />
             </div>
-            <div className="row" style={{}}>
+            <div className={styles.row }>
                 {teamData.map((member, i) => (
                     <TeamMember
                         key={member.id}
