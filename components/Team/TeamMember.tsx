@@ -24,7 +24,7 @@ const TeamMember = ({ name, role, image, social, delay, removePadding }) => {
                             <h4 className="member-title">{name}</h4>
                             <p className="member-subtitle">{role}</p>
                             <ul className="member-icons">
-                                {social.map((item) => {
+                                {social.map((item:any) => {
                                     return (
                                         <li className="social-icon" key={item.id}>
                                             <a href={item.link}>

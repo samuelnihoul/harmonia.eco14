@@ -1,5 +1,4 @@
 import React from "react";
-const logoFootr = "/images/D21.png";
 import FooterCopyright from "./FooterCopyright";
 const logoFooter = "/assets/images/D21.png"
 const FooterOne = () => (
@@ -22,9 +21,7 @@ const FooterOne = () => (
                 <p>
                   Realigning money and impact. ReFi advocates.<br></br>
                   For the harmony era.<br></br>
-
                   "Being carbon neutral is infinitely more powerful than 'no plane + no meat.'", math.
-
                 </p>
               </div>
             </div>
@@ -39,7 +36,6 @@ const FooterOne = () => (
                     <a href={'https://hedera.com'}>More on the carbon negative currency Hedera</a>
                   </li>
                   <li><a href='footprint.wwf.org.uk'>Carbon footprint calculator</a></li>
-                  {/* <li><a href='https://scholar.google.com/citations?hl=en&user=KcViJEYAAAAJ&view_op=list_works&sortby=pubdate'>Leading climate risk & mitigation researcher inspiring us</a></li> */}
                 </ul>
               </div>
             </div>

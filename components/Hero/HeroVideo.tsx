@@ -3,8 +3,6 @@ import styles from './Hero.module.css';
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
 
 const Hero = ({ data }) => {
-
-
   return (
     <section className={styles.localHero}>
       <div style={{ maxWidth: "700px", textAlign: "center" }}>

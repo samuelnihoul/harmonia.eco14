@@ -2,7 +2,7 @@ import teamData from "../../data/Team/team-data.json";
 import HeadingSection from '../../components/HeadingSection/HeadingSection';
 import TeamMember from './TeamMember';
 import styles from './ourTeamTwo.module.css'
-const OurTeamTwo = ({ title, tagline, children }) => (
+const OurTeamTwo = ({ title, tagline }) => (
     <section className="white-bg" id="team" >
         <div className="container" >
             <div className="row">
