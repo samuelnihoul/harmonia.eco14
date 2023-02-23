@@ -77,7 +77,7 @@ body {
     color: #888;
     background: #f1f1f1;
     font-size:15px;
-	font-family: 'Hind', sans-serif;
+	font-family: 'cascadia';
 }
 
 .wrapper {
@@ -94,17 +94,17 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.hind-font{font-family: 'Hind', sans-serif;}
-.poppins-font{font-family: 'Poppins', sans-serif;}
-.cardo-font{font-family: 'Cardo', serif!important;}
-.great-font{font-family: 'Great Vibes', cursive;}
-.josefin-font{font-family: 'Josefin Sans', sans-serif;}
+.hind-font{font-family: 'cascadia', sans-serif;}
+.poppins-font{font-family: 'cascadia', sans-serif;}
+.cardo-font{font-family: 'cascadia', serif!important;}
+.great-font{font-family: 'cascadia', cursive;}
+.josefin-font{font-family: 'cascadia', sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {
     color: #212121;
     margin: 10px 0;
     font-style: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'cascadia';
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -1117,7 +1117,7 @@ button:focus {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     font-weight: 500;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'cascadia';
     letter-spacing: 1px;
 }
 
@@ -2070,7 +2070,7 @@ button::-moz-focus-inner {
   color: #FFF;
   font-style: normal;
   font-size: 28px;
-  font-family: Arial, Baskerville, monospace; }
+  font-family: "cascadia"; }
   .mfp-close:hover,
   .mfp-close:focus {
     opacity: 1;
@@ -2400,7 +2400,7 @@ img.mfp-img {
 }
 
 .project-info li {
-    font-family: 'Hind', sans-serif;
+    font-family: 'cascadia';
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -2410,7 +2410,7 @@ img.mfp-img {
 }
 
 .project-info li span {
-    font-family: 'Hind', sans-serif;
+    font-family: 'cascadia';
     color: #6d747c;
     font-size: 13px;
     text-transform: uppercase;
@@ -2419,7 +2419,7 @@ img.mfp-img {
 }
 .project-title {
     padding-top: 20px;
-    font-family: 'Hind', sans-serif;
+    font-family: 'cascadia';
     text-transform: uppercase;
     text-align: left;
     font-size: 20px;
@@ -2513,14 +2513,14 @@ img.mfp-img {
 }
 
 .pricing-box h4 {
-    font-family: 'Jost', sans-serif;
+    font-family: 'cascadia', sans-serif;
     font-size: 22px;
     letter-spacing: 2px;
 	text-transform:uppercase;
   font-weight: 600;
 }
 .pricing-box h2 {
-    font-family: 'Jost', sans-serif;
+    font-family: 'cascadia', sans-serif;
 	margin-top: 25px;
     margin-bottom: 25px;
 	color: var(--main-color);
@@ -2791,7 +2791,7 @@ img.mfp-img {
 }
 .theme-feature h4{
 	color: #ff4452;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'cascadia', monospace;
 	margin-bottom:20px;
 	font-size: 20px;
 }
@@ -3176,7 +3176,7 @@ a.readmore > span {
     color: #fff;
 	letter-spacing: 1px;
     font-weight: 700;
-    font-family: 'Hind', sans-serif;
+    font-family: 'cascadia';
 }
 
 .footer .widget-text p {color:#fff;}
@@ -3193,7 +3193,7 @@ a.readmore > span {
 
 .footer .widget-links{
   font-size: 16px;
-  font-family: 'Hind', sans-serif;
+  font-family: 'cascadia';
 }
 
 .footer .widget-links li{
@@ -4118,7 +4118,7 @@ ul.footer-gallery li img {
 .progress-bar{
   font-size: 16px;
   color: #212121;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'cascadia';
 }
 
 .progress{
@@ -4188,7 +4188,7 @@ ul.footer-gallery li img {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     content: attr(data-circle-text);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'cascadia';
     color: #212121;
 }
 .progress-ring:after {
@@ -4199,7 +4199,7 @@ ul.footer-gallery li img {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     content: attr(data-circle-percent) "%";
-    font-family: 'Poppins', sans-serif;
+    font-family: 'cascadia';
     color: #212121;
 }
 .progress-ring-icon .progress-ring:before {
@@ -4208,7 +4208,7 @@ ul.footer-gallery li img {
     left: 50%;
     font-size: 18px;
     line-height: 1.4;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'cascadia';
     transform: translate(-50%, -50%);
     content: attr(data-circle-text);
     color: #212121;
@@ -4235,7 +4235,7 @@ ul.footer-gallery li img {
 
 .testimonial-item h4, .testimonial-item h5 {
     color: #212121;
-	font-family: 'Hind', sans-serif;
+	font-family: 'cascadia';
 }
 .testimonial-item h4 {
 	font-weight: 300;
@@ -4300,7 +4300,7 @@ ul.footer-gallery li img {
 .testimonial-carousel.testimonial-style-01 .image img {width: 78px;height: 78px;}
 .testimonial-carousel .testimonial-item .content{margin-top: 20px;}
 .testimonial-carousel .testimonial-item .cite {font-style: normal;}
-.testimonial-carousel .testimonial-item .name {display: block;font-size: 20px;line-height: 1.3;margin-bottom: 0;font-family: 'Josefin Sans', sans-serif;}
+.testimonial-carousel .testimonial-item .name {display: block;font-size: 20px;line-height: 1.3;margin-bottom: 0;font-family: 'cascadia', sans-serif;}
 .testimonial-carousel .testimonial-item .position {display: block;font-size: 12px;font-weight: 500;text-transform: uppercase;letter-spacing: 1.38px;margin-top: 6px;}
 .testimonial-carousel.testimonial-style-01 .text{color: #777;font-style: italic;}
 .testimonial-carousel.testimonial-style-01 .testimonial-item .testimonial-content:after{display: none;}
@@ -4917,7 +4917,7 @@ ul.social-top li a{
 	text-transform:uppercase;
 	letter-spacing:2px;
   font-weight: 700;
-font-family: 'Poppins', sans-serif;
+font-family: 'cascadia';
 }
 
 .light-tabs .nav>li>a:focus,
@@ -5105,7 +5105,7 @@ font-family: 'Poppins', sans-serif;
 .accordion-style-01 .panel  {background: transparent; box-shadow: none; margin-top: 0 !important}
 .accordion-style-01.panel-group .panel-heading  {border: 0px; border-bottom: 1px solid #e4e4e4;}
 .accordion-style-01 .panel .panel-heading {padding: 16px 0;background-color: transparent;}
-.accordion-style-01 .panel-title {font-size: 20px; position: relative;font-family: 'Josefin Sans', sans-serif;padding-right: 30px;font-weight: 600;}
+.accordion-style-01 .panel-title {font-size: 20px; position: relative;font-family: 'cascadia', sans-serif;padding-right: 30px;font-weight: 600;}
 .accordion-style-01 .panel-title span.float-right { position: absolute; right: 0;}
 .accordion-style-01 .panel-heading i {font-size: 16px; color: #212121}
 .accordion-style-01.panel-group .panel-heading+.panel-collapse>.list-group, .accordion-style-01.panel-group .panel-heading+.panel-collapse>.panel-body{border-top:0; padding: 25px 0; background-color: transparent;}
@@ -5424,7 +5424,7 @@ font-family: 'Poppins', sans-serif;
 .shop-cart > thead > tr > th {
   border-bottom: 1px solid #ececec;
   font-size: 13px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'cascadia';
   color: #212121;
   font-weight: 400;
   padding: 15px 20px;
@@ -5435,7 +5435,7 @@ font-family: 'Poppins', sans-serif;
   padding: 30px 8px;
   vertical-align: middle;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'cascadia';
   font-weight: 400;
   border-bottom: 1px solid;
   border-color: #ececec;
@@ -5506,7 +5506,7 @@ font-family: 'Poppins', sans-serif;
 .order_table thead th {
   text-transform: uppercase;
   font-size: 14px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'cascadia';
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -5528,7 +5528,7 @@ font-family: 'Poppins', sans-serif;
   color: #888;
 }
 
-.order_table tbody td > span {font-family: 'Hind', sans-serif;}
+.order_table tbody td > span {font-family: 'cascadia';}
 
 .order_table .shipping p {
   font-size: 14px;
@@ -5552,7 +5552,7 @@ form.register {
 }
 
 .checkout-form .form-group label {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'cascadia', sans-serif;
 	font-size:13px;
 	font-weight:400;
 }
@@ -5719,13 +5719,13 @@ form.register {
 
 .error-message {
 	color: #FF3333;
-	font-family: Roboto;
+	font-family: "cascadia";
 	margin-top: 5px;
 }
 
 .success-message {
 	color:#33cc33;
-	font-family: Roboto;
+	font-family: "cascadia";
 	margin-top: 5px;
 }
 
@@ -5759,11 +5759,11 @@ form.register {
 -------------------------------------------*/
 .cta-block hr{height: 1px;border-top: 1px solid #ebebeb;display: block;position: relative;top: 1px;width: 100%;border-color: rgba(136,136,136,0.8);}
 .cta-heading-left{text-align: left;}
-.cta-heading-left .subtitle{color: #fff;text-transform: uppercase;font-family: 'Poppins', sans-serif;font-weight: 400;}
-.cta-heading-left h3{font-size: 50px;color: #fff;font-family: 'Poppins', sans-serif;font-weight: 700;line-height: 1.4;}
+.cta-heading-left .subtitle{color: #fff;text-transform: uppercase;font-family: 'cascadia';font-weight: 400;}
+.cta-heading-left h3{font-size: 50px;color: #fff;font-family: 'cascadia';font-weight: 700;line-height: 1.4;}
 
 .cta-heading-right{text-align: left;}
-.cta-heading-right .content-text{font-size: 16px;color: #fff;font-family: 'Poppins', sans-serif;font-weight: 400;line-height: 1.5;}
+.cta-heading-right .content-text{font-size: 16px;color: #fff;font-family: 'cascadia';font-weight: 400;line-height: 1.5;}
 
 
 /* ----------------------------------------
