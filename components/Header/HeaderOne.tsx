@@ -8,7 +8,6 @@ const HeaderOne = ({ type }) => {
   const [show, setShow] = useState(false);
   const [fixed, setFixed] = useState(false);
   const [collapse, setCollapse] = useState(false);
-  const [color, setColor] = useState('#ffd700')
   const showMenu = () => {
     setCollapse(!collapse);
     const menu = document.getElementById("navbar-menu");
@@ -20,7 +19,6 @@ const HeaderOne = ({ type }) => {
       setFixed(true);
     } else {
       setFixed(false);
-      setColor('#9140bf')
     }
   }, []);
 
@@ -30,13 +28,13 @@ const HeaderOne = ({ type }) => {
     searchForm.style.top = wHeight / 2 + "px";
   }, []);
 
-  const showSearchForm = (e) => {
+  const showSearchForm = (e:any) => {
     e.preventDefault();
     setShow(true);
     resizeForm();
   };
 
-  const hideSearchForm = (e) => {
+  const hideSearchForm = (e:any) => {
     e.preventDefault();
     setShow(false);
   };
@@ -69,8 +67,8 @@ const HeaderOne = ({ type }) => {
             onClick={showMenu}
           >
             <i className="icofont-navigation-menu"></i>
-          </button><a href='/'>
-            {<MainLogo showMenu={showMenu} collapse={undefined} ></MainLogo>}</a>
+          </button>
+            <MainLogo  ></MainLogo>
           <DropdownMenu />
           <AttributeNav>
             <CartSearchTop showSearchForm={showSearchForm} />

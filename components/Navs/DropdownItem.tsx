@@ -1,10 +1,9 @@
 import React from "react";
 import Link from "next/link";
-import DropdownSubItem from "./DropdownSubItem";
 
 const DropdownItem = ({ item }) => {
 
-  const handleOpen = (e) => {
+  const handleOpen = (e:any) => {
     const el = e.target;
     if (el.nextSibling) {
       e.preventDefault();
@@ -22,19 +21,18 @@ const DropdownItem = ({ item }) => {
 
   return (
     <ul className="dropdown-menu dropdown-item animated" role="menu">
-      {item.map((val, i) => (
+      {item.map((val:{title:string,link:string,subMenu:{link:string,title:string}[]}, i:number) => (
         <li key={i} className="dropdown">
-          <Link
+          <a
 
             data-toggle="dropdown"
             href={val.link}
 
           >
             <a
-              //onClick={ (e) => handleOpen(e)}
-              className={"dropdown-item "/*  + (val.subMenu ? "dropdown-toggle" : null) */}>{val.title}</a>
-          </Link>
-          {val.subMenu ? <DropdownSubItem item={val.subMenu} /> : null}
+              onClick={ (e) => handleOpen(e)}
+              className={"dropdown-item "   }>{val.title}</a>
+          </a>
         </li>
       ))}
     </ul>

@@ -1,84 +1,63 @@
 [
     {
-        "id": 1,
+      "title":"Services",
+      "link":"/",
+      "subMenu":[
+
+    {
         "title": "Karbon Basar",
         "link": "https://karbonbasar.harmonia-eko.ooo",
-        "megaMenu": false,
-        "colsTitle": [],
-        "itemsPerCol": 0,
         "subMenu": []
     },
      {
-        "id": 11,
+        
         "link": "https://karbonmoneta.harmona-eko.ooo",
         "title": "Karbon Moneta",
-        "megaMenu": false,
-        "colsTitle": [],
-        "itemsPerCol": 0,
         "subMenu": []
     },
     {
-        "id": 12,
+        
+        "link": "https://preview.chatibot.harmonia-eko.ooo",
+        "title": "Chatibot (Preview)",
+        "subMenu": []
+    },
+    {
+        
+        "link": "https://al-flaisa320230216145550.azurewebsites.net/api/flight",
+        "title": "Al-Flaisa",
+        "subMenu": []
+    }
+      ]
+    },
+    {
+        
         "link": "/anomalyMap",
         "title": "Anomaly Map",
-        "megaMenu": false,
-        "colsTitle": [],
-        "itemsPerCol": 0,
-        "subMenu": []
+        "subMenu":null
     },
     
     {
-        "id": 13,
-        "link": "https://preview.chatibot.harmonia-eko.ooo",
-        "title": "Chatibot (Preview)",
-        "megaMenu": false,
-        "colsTitle": [],
-        "itemsPerCol": 0,
-        "subMenu": []
-    },
-    {
-        "id": 14,
-        "link": "https://al-flaisa320230216145550.azurewebsites.net/api/flight",
-        "title": "Al-Flaisa",
-        "megaMenu": false,
-        "colsTitle": [],
-        "itemsPerCol": 0,
-        "subMenu": []
-    },
-    {
-        "id": 2,
+        
         "title": "About",
         "link": "/about",
-        "megaMenu": false,
-        "colsTitle": [],
-        "itemsPerCol": 0,
-        "subMenu": []
+        "subMenu":null 
     },
     {
-        "id": 5,
+        
         "title": "Careers",
         "link": "/careers",
-        "megaMenu": false,
-        "colsTitle": [],
-        "itemsPerCol": 0,
-        "subMenu": []
+        "subMenu":null 
     },
     {
-        "id": 3,
+        
         "title": "CONTACT",
         "link": "/contact",
-        "megaMenu": false,
-        "colsTitle": [],
-        "itemsPerCol": 0,
-        "subMenu": []
+        "subMenu":null 
     },
     {
-        "id": 4,
+        
         "title": "FAQ",
         "link": "/faq",
-        "megaMenu": false,
-        "colsTitle": [],
-        "itemsPerCol": 0,
-        "subMenu": []
+        "subMenu":null 
     }
 ]

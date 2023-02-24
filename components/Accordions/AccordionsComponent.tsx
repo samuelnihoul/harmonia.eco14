@@ -8,24 +8,24 @@ const AccordionsComponent = ({ type, data, classAppend, items }) => (
       accordion={true}
       defaultActiveKey="1"
       className={`panel-group accordion-${type ? type : "color"} ${
-        classAppend ? classAppend : ""
+        classAppend ? classAppend : "+"
       }`}
     >
       {items
-        ? data.filter((v, i) => i < items).map((panel) => (
+        ? data.filter((i:number) => i < items).map((panel:{id:number,title:string,text:string}) => (
             <Collapse.Panel
               key={panel.id}
-              header={panel.title}
+              header={panel.title +'+'}
               headerClass="panel-heading"
               className="panel panel-default"
             >
               {panel.text}
             </Collapse.Panel>
           ))
-        : data.map((panel) => (
+        : data.map((panel:{id:number,title:string,text:string}) => (
             <Collapse.Panel
               key={panel.id}
-              header={panel.title}
+              header={'+ '+panel.title }
               headerClass="panel-heading"
               className="panel panel-default"
             >

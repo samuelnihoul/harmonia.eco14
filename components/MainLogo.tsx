@@ -2,7 +2,7 @@ import React from "react";
 const D21 = '/assets/images/D21.png'
 const D23 = '/assets/images/D23.png'
 
-function MainLogo({ collapse, showMenu }) {
+function MainLogo() {
   return (
     <div className="navbar-header">
       <div className="logo">
