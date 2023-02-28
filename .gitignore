@@ -8,3 +8,4 @@ app
 v12
 .env
 out
+.vscode
