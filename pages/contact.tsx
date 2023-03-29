@@ -7,13 +7,12 @@ import FooterOne from "../components/Footer/FooterOne";
 
 const ContactCreative = () => (
   <Loader>
-    <HeaderOne type={undefined} />
+    <HeaderOne type={null} />
     <PageTitleContact
       title="Contact"
       tagline="Customer Support 24 Hours"
     />
     <ContactFour />
-    {/* <ClientsBrand children={undefined} classAppend={undefined} /> */}
     <FooterOne />
   </Loader>
 );
