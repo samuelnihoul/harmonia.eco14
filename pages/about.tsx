@@ -9,13 +9,13 @@ import FooterOne from "../components/Footer/FooterOne";
 
 const AboutUs = () => (
   <Loader>
-    <HeaderOne type={null} />
+    <HeaderOne type={'white'} />
     <PageTitleAbout
       title="About Us"
       tagline="Driving innovation in voluntary carbon offsets since 2021"
     />
     <WhoWeAreSeven />
-    <CounterOne type="wide" bg={null} />
+    <CounterOne type="wide" bg={'white'} />
     <OurTeamTwo title="MEET OUR TEAM" tagline="Together WE ARE STRONGER"  />
     <FooterOne />
   </Loader>

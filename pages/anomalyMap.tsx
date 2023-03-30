@@ -4,7 +4,7 @@ import Loader from '../components/Loader/Loader';
 export default function News() {
     return (
         <Loader>
-            <HeaderOne type={null} />
+            <HeaderOne type={'white'} />
             <section >
                 <img src='https://climatereanalyzer.org/wx/todays-weather/input/gfs_nh-sat1_t2anom_d1.png'>
                 </img>

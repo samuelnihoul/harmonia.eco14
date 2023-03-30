@@ -18,7 +18,7 @@ const StartupBusiness = () => {
   }, []);
   return (
     <Loader>
-      <HeaderOne type={null} />
+      <HeaderOne type={"white"} />
       <HeroVideo data={dataStartup} />
 
       <Welcome title="What We Do" tagline="The way we work is harmonious">
@@ -36,7 +36,7 @@ const StartupBusiness = () => {
         serviceImg={serviceOneImg}
         children={null}
       />
-      <CounterOne type="wide" bg={null} />
+      <CounterOne type="wide" bg={'white'} />
       <OurServicesTwo title="About Us" tagline="Part of the solution" />
             <FooterOne />
     </Loader>

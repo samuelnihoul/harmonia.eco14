@@ -7,7 +7,7 @@ import FooterOne from "../components/Footer/FooterOne";
 
 const Career = () => (
   <Loader>
-    <HeaderOne type={null} />
+    <HeaderOne type={'white'} />
     <PageTitleWidget title="Careers" />
     <section>
       <div className="container">

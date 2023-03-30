@@ -7,7 +7,7 @@ import FooterOne from "../components/Footer/FooterOne";
 
 const ContactCreative = () => (
   <Loader>
-    <HeaderOne type={null} />
+    <HeaderOne type={'white'} />
     <PageTitleContact
       title="Contact"
       tagline="Customer Support 24 Hours"

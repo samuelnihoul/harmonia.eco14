@@ -4,7 +4,7 @@ import Loader from "../components/Loader/Loader"
 import FooterOne from "../components/Footer/FooterOne";
 export default function(){
 
-    return <><Loader>    <HeaderOne type={null}/><Services></Services><FooterOne ></FooterOne>
+    return <><Loader>    <HeaderOne type={'white'}/><Services></Services><FooterOne ></FooterOne>
         </Loader>
        
         </>

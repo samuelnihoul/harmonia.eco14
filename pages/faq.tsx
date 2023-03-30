@@ -8,7 +8,7 @@ import FooterOne from "../components/Footer/FooterOne";
 
 const FAQs = () => (
   <Loader>
-    <HeaderOne type={null} />
+    <HeaderOne type={'white'} />
     <PageTitleWidget title="FAQ" />
     <section>
       <div className="container">
