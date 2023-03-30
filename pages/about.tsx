@@ -15,7 +15,7 @@ const AboutUs = () => (
       tagline="Driving innovation in voluntary carbon offsets since 2021"
     />
     <WhoWeAreSeven />
-    <CounterOne type="wide" bg={undefined} />
+    <CounterOne type="wide" bg={null} />
     <OurTeamTwo title="MEET OUR TEAM" tagline="Together WE ARE STRONGER"  />
     <FooterOne />
   </Loader>

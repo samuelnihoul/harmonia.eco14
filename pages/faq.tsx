@@ -16,7 +16,6 @@ const FAQs = () => (
           <div className="col-sm-8">
             <AccordionsComponent type="color" data={dataAccordion} classAppend={null} items={null} />
             <div className="col-sm-15" style={{ marginTop: '3rem' }}>
-
               <h5 className="widget-title">External Resources</h5>
               <ul>
                 <li>More on carbon offsetting:
