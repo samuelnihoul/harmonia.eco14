@@ -9,7 +9,7 @@ import FooterOne from "../components/Footer/FooterOne";
 
 const AboutUs = () => (
   <Loader>
-    <HeaderOne type={undefined} />
+    <HeaderOne type={null} />
     <PageTitleAbout
       title="About Us"
       tagline="Driving innovation in voluntary carbon offsets since 2021"

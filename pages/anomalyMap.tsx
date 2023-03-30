@@ -1,13 +1,10 @@
-//Show the latest news about climate change
-//Using an external API
-//Fix the 'window is not defined error'
 import HeaderOne from '../components/Header/HeaderOne';
 import FooterOne from '../components/Footer/FooterOne';
 import Loader from '../components/Loader/Loader';
 export default function News() {
     return (
         <Loader>
-            <HeaderOne type={undefined} />
+            <HeaderOne type={null} />
             <section >
                 <img src='https://climatereanalyzer.org/wx/todays-weather/input/gfs_nh-sat1_t2anom_d1.png'>
                 </img>

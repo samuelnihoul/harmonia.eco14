@@ -1,4 +1,3 @@
-import '../i18n'
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,7 +18,7 @@ const StartupBusiness = () => {
   }, []);
   return (
     <Loader>
-      <HeaderOne type={undefined} />
+      <HeaderOne type={null} />
       <HeroVideo data={dataStartup} />
 
       <Welcome title="What We Do" tagline="The way we work is harmonious">
@@ -37,7 +36,7 @@ const StartupBusiness = () => {
         serviceImg={serviceOneImg}
         children={null}
       />
-      <CounterOne type="wide" bg={undefined} />
+      <CounterOne type="wide" bg={null} />
       <OurServicesTwo title="About Us" tagline="Part of the solution" />
             <FooterOne />
     </Loader>

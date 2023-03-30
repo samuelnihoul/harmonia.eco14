@@ -8,13 +8,13 @@ import FooterOne from "../components/Footer/FooterOne";
 
 const FAQs = () => (
   <Loader>
-    <HeaderOne type={undefined} />
+    <HeaderOne type={null} />
     <PageTitleWidget title="FAQ" />
     <section>
       <div className="container">
         <div className="row">
           <div className="col-sm-8">
-            <AccordionsComponent type="color" data={dataAccordion} classAppend={undefined} items={undefined} />
+            <AccordionsComponent type="color" data={dataAccordion} classAppend={null} items={null} />
             <div className="col-sm-15" style={{ marginTop: '3rem' }}>
 
               <h5 className="widget-title">External Resources</h5>

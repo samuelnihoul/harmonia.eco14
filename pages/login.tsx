@@ -5,7 +5,7 @@ import HeaderOne from "../components/Header/HeaderOne";
 
 const Login = () => (
   <Loader>
-    <HeaderOne type={undefined} />
+    <HeaderOne type={null} />
     <section
       className="title-hero-bg login-cover-bg"
       data-stellar-background-ratio="0.2"
