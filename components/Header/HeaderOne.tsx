@@ -52,10 +52,8 @@ const HeaderOne = ({ type }) => {
   return (
     <>
       <nav
-        className={
-          "navbar navbar-expand-lg navbar-light navbar-fixed white bootsnav on no-full " +
-          (fixed || type === "white" ? "" : "navbar-transparent")
-        }
+        
+        
       >
         <SearchOverlay show={show} onClick={hideSearchForm} />
         <div className="container">

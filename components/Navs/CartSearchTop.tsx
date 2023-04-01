@@ -3,7 +3,6 @@ import SearchItem from "../../elements/SearchItem";
 
 const CartSearchTop = ({ showSearchForm }) => (
   <>
-    {/* <CartMenu /> */}
     <SearchItem showSearchForm={showSearchForm} />
   </>
 );
