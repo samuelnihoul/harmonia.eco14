@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import Loader from "../components/Loader/Loader";
 import dataStartup from "../data/Slider/startup-business-data.json";
 const serviceOneImg = "/assets/images/man.jpg";
-import HeaderOne from "../components/Header/HeaderOne";
+import Navbar from '../components/Navbar'
 import HeroVideo from "../components/Hero/HeroVideo";
 import Welcome from "../components/WelcomeSection/Welcome";
 import OurServices from "../components/OurServices/OurServices";
@@ -18,9 +18,8 @@ const StartupBusiness = () => {
   }, []);
   return (
     <Loader>
-      <HeaderOne type={"white"} />
+    <Navbar />
       <HeroVideo data={dataStartup} />
-
       <Welcome title="What We Do" tagline="The way we work is harmonious">
         We run different Regenerative Finance applications:
         <ul><li>a carbon offset marketplace with arty NFT certificates,</li>
@@ -32,7 +31,7 @@ const StartupBusiness = () => {
       </Welcome>
       <OurServices
         title="Our Focus"
-        tagline="We help implementing your ambitions of ecoharmony."
+        tagline="We help implementing your ambitions of eco-harmony."
         serviceImg={serviceOneImg}
         children={null}
       />

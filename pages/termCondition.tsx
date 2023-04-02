@@ -1,12 +1,12 @@
 import React from "react";
 import Loader from "../components/Loader/Loader";
-import HeaderOne from "../components/Header/HeaderOne";
+import Navbar from '../components/Navbar'
 import PageTitleWidget from "../components/PageTitle/PageTitleWidget";
 import FooterOne from "../components/Footer/FooterOne";
 
 const TermCondition = () => (
   <Loader>
-    <HeaderOne type={null} />
+    <Navbar />
     <PageTitleWidget title="Terms & Conditions" />
     <section>
       <div className="container">
