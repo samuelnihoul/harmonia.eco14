@@ -26,7 +26,7 @@ function ResponsiveAppBar() {
 
 
   return (
-    <AppBar position="static" color='transparent'>
+    <AppBar position="static"  color="primary">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Avatar src='/pure2.png' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
@@ -41,7 +41,6 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
               textDecoration: 'none',
             }}
           >
@@ -55,7 +54,6 @@ function ResponsiveAppBar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
             >
               <MenuIcon />
             </IconButton>
@@ -79,7 +77,7 @@ function ResponsiveAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center"><a href={page=='home'?'/':page}>{page}</a></Typography>
+                  <Typography  textAlign="center"><a href={page=='home'?'/':page}>{page}</a></Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -97,7 +95,6 @@ function ResponsiveAppBar() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
               textDecoration: 'none',
             }}
           >
@@ -108,7 +105,7 @@ function ResponsiveAppBar() {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: 'inherit'  }}
               ><a href={page=='home'?'/':page}>
                 {page}</a>
               </Button>

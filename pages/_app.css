@@ -2,11 +2,10 @@
   font-family:'caskaydia';
   src:'/assets/fonts/Caskaydia Cove Nerd Font Complete Regular.otf'
 }
-*{
+a{
   background-color:black;
   color:white;
   font-family:"caskaydia";
-  border: solid red 1px;
 }
 a{
   color:gold;

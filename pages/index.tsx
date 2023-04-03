@@ -11,6 +11,17 @@ import OurServices from "../components/OurServices/OurServices";
 import OurServicesTwo from "../components/OurServices/OurServicesTwo";
 import FooterOne from "../components/Footer/FooterOne";
 import CounterOne from "../components/Counters/CounterOne";
+import Card from "@mui/material/Card"
+import {createTheme,ThemeProvider} from "@mui/material"
+const theme=createTheme(
+{
+    palette:{
+        primary:{
+            main:"#000"
+          }
+      }
+  }
+)
 const StartupBusiness = () => {
   useEffect(() => {
     AOS.init();
@@ -18,16 +29,18 @@ const StartupBusiness = () => {
   }, []);
   return (
     <Loader>
-    <Navbar />
+  <ThemeProvider theme={theme}>
+    <Navbar/>
       <HeroVideo data={dataStartup} />
       <Welcome title="What We Do" tagline="The way we work is harmonious">
+      <Card>
         We run different Regenerative Finance applications:
         <ul><li>a carbon offset marketplace with arty NFT certificates,</li>
           <li>a climate pass to enforce standards on travel emissions,</li>
           <li>a proof of carbon removal token and ecosystem,</li>
           <li>an API for integrated offstets in commercial flights,</li>
           <li>a climate question answering chatbot on climate change (preview).</li>
-        </ul>
+        </ul></Card>
       </Welcome>
       <OurServices
         title="Our Focus"
@@ -37,7 +50,8 @@ const StartupBusiness = () => {
       />
       <CounterOne type="wide" bg={'white'} />
       <OurServicesTwo title="About Us" tagline="Part of the solution" />
-            <FooterOne />
+        <FooterOne />
+  </ThemeProvider>
     </Loader>
   );
 };
