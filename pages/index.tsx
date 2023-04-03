@@ -17,7 +17,11 @@ const theme=createTheme(
 {
     palette:{
         primary:{
-            main:"#000"
+            main:"#000",
+            light:'#fff'
+          },
+        secondary:{
+            main:"#ffd700"
           }
       }
   }
@@ -39,7 +43,6 @@ const StartupBusiness = () => {
           <li>a climate pass to enforce standards on travel emissions,</li>
           <li>a proof of carbon removal token and ecosystem,</li>
           <li>an API for integrated offstets in commercial flights,</li>
-          <li>a climate question answering chatbot on climate change (preview).</li>
         </ul></Card>
       </Welcome>
       <OurServices

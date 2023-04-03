@@ -10,9 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar'
 import MenuItem from '@mui/material/MenuItem';
-
-const pages = ['home','offset', 'about'];
-
+import navbarData from '../data/Navbar/navbar-data.json'
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
 
@@ -24,13 +22,13 @@ function ResponsiveAppBar() {
     setAnchorElNav(null);
   };
 
-
   return (
     <AppBar position="static"  color="primary">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Avatar src='/pure2.png' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <Avatar src='/assets/images/D23.png' sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
+          color="primary.light"
             variant="h6"
             noWrap
             component="a"
@@ -46,7 +44,6 @@ function ResponsiveAppBar() {
           >
            KB 
           </Typography>
-
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -75,9 +72,9 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography  textAlign="center"><a href={page=='home'?'/':page}>{page}</a></Typography>
+              {navbarData.map((page) => (
+                <MenuItem key={page.link} onClick={handleCloseNavMenu}>
+                  <Typography color='secondary' textAlign="center"><a href={page.link}>{page.title}</a></Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -101,13 +98,13 @@ function ResponsiveAppBar() {
            KB 
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {navbarData.map((page) => (
               <Button
-                key={page}
+                key={page.title}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'inherit'  }}
-              ><a href={page=='home'?'/':page}>
-                {page}</a>
+                sx={{ my: 2  }}
+              ><a href={page.link}>
+                {page.title}</a>
               </Button>
             ))}<Box sx={{flexGrow:2,display:{xs:'none',md:'flex'}}}></Box>
           </Box>

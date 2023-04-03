@@ -1,10 +1,10 @@
 import React from "react";
-import styles from './Hero.module.css';
 import SliderButtons from "../../elements/SliderButtons/SliderButtons";
 import Card from "@mui/material/Card"
+import Paper from "@mui/material/Paper"
 const Hero = ({ data }) => {
   return (
-    <section className={styles.localHero}>
+    <Paper sx={{backgroundImage:'/assets/images/pines.png'}} > 
       <Card>
         <h2
           className="white-color font-400 letter-spacing-5"
@@ -41,11 +41,11 @@ const Hero = ({ data }) => {
         <SliderButtons buttons={data.buttons} />
       </Card>
       <a href='karbonmoneta.harmonia-eko.ooo'>
-        <img className={styles.karbonMoneta + "color-transparent"}
+        <img 
           src={"/assets/images/KarbonMoneta.png"}
         />
         </a>
-    </section>
+    </Paper>
   );
 };
 
