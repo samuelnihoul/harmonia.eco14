@@ -23,11 +23,9 @@ const StartupBusiness = () => {
 
       <Welcome title="What We Do" tagline="The way we work is harmonious">
         We run different Regenerative Finance applications:
-        <ul><li>a carbon offset marketplace with arty NFT certificates,</li>
-          <li>a climate pass to enforce standards on travel emissions,</li>
+        <ul><li>an emission reduction marketplace with arty NFT certificates,</li>
           <li>a proof of carbon removal token and ecosystem,</li>
-          <li>an API for integrated offstets in commercial flights,</li>
-          <li>a climate question answering chatbot on climate change (preview).</li>
+          <li>more in development.</li>
         </ul>
       </Welcome>
       <OurServices
