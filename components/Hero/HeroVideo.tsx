@@ -14,7 +14,7 @@ const Hero = ({ data }) => {
         </h2>
         <h1>
           <a
-            href="karbonbasar.harmonia-eko.ooo"
+            href="karbonbasar.harmonia.eco"
             className="white-color font-700"
             style={{
               background: "linear-gradient(to right,#ffd700, #9140bf)",
@@ -38,13 +38,12 @@ const Hero = ({ data }) => {
             Together.
           </b>
         </h3>
-        <SliderButtons buttons={data.buttons} />
       </div>
       <a href='karbonmoneta.harmonia-eko.ooo'>
         <img className={styles.karbonMoneta}
           src={"/assets/images/KarbonMoneta.png"}
         />
-        </a>
+      </a>
     </section>
   );
 };

@@ -14,24 +14,7 @@
         "link": "https://karbonmoneta.harmona-eko.ooo",
         "title": "Karbon Moneta",
         "subMenu": []
-    },
-    {
-        
-        "link": "https://preview.chatibot.harmonia-eko.ooo",
-        "title": "Chatibot (Preview)",
-        "subMenu": []
-    },
-    {
-        
-        "link": "https://al-flaisa320230216145550.azurewebsites.net/api/flight",
-        "title": "Al-Flaisa",
-        "subMenu": []
-    }, {
-          "link":"https://consulting.harmonia-eko.ooo",
-          "title": "Consulting",
-          "subMenu":[]}
-      ]
-    },
+    }]},
     {
         
         "link": "/anomalyMap",
