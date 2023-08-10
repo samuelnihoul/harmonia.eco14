@@ -6,12 +6,12 @@
 
     {
         "title": "Karbon Basar",
-        "link": "https://karbonbasar.harmonia-eko.ooo",
+        "link": "https://karbonbasar.harmonia.eco",
         "subMenu": []
     },
      {
         
-        "link": "https://karbonmoneta.harmona-eko.ooo",
+        "link": "https://karbonmoneta.harmonia.eco",
         "title": "Karbon Moneta",
         "subMenu": []
     }]},
@@ -38,12 +38,6 @@
         
         "title": "CONTACT",
         "link": "/contact",
-        "subMenu":null 
-    },
-    {
-        
-        "title": "FAQ",
-        "link": "/faq",
         "subMenu":null 
     }
 ]
