@@ -1,15 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
-import countersData from "../../data/Counters/counter-data1.json";
-
+import db from '../../helpers/firebase'
+import { getDocs, DocumentData, collection } from 'firebase/firestore'
 const CounterOne = ({ bg, type }) => {
   const [viewed, setViewed] = useState(false);
-
-  const viewChangeHandler = (isVisible) => {
+  const [data, setData] = useState<DocumentData[]>([])
+  async function fetchData() {
+    if (data.length == 0) {
+      const snapshot = await getDocs(collection(db, 'KPIs'))
+      setData(snapshot[0])
+    }
+  }
+  const viewChangeHandler = (isVisible: any) => {
     if (isVisible) setViewed(true);
   };
 
+  useEffect(
+    () => {
+      fetchData();
+    }, []
+  )
   return (
     <section className={(bg ? bg : "dark-bg") + " pt-80 pb-80"}>
       {bg === "white-bg" || bg === "dark-bg" ? null : (
@@ -17,7 +28,7 @@ const CounterOne = ({ bg, type }) => {
       )}
       <div className={"container" + (type === "wide" ? "-fluid" : "")}>
         <div className="row">
-          {countersData.map((counter, i) => (
+          {data.map((counter, i) => (
             <div
               className="col-md-3 counter text-center col-sm-6"
               key={counter.id}
@@ -32,9 +43,9 @@ const CounterOne = ({ bg, type }) => {
                 }
               >
                 <VisibilitySensor onChange={viewChangeHandler} delayedCall>
-                {/* I don't know why `counter.decimals` is not working */}
+                  {/* I don't know why `counter.decimals` is not working */}
                   <CountUp decimals={counter.decimals} end={viewed ? counter.value : 0} />
-                  
+
 
                 </VisibilitySensor>
               </h2>

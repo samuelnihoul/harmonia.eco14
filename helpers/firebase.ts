@@ -1,6 +1,6 @@
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from 'firebase/analytics'
-
+import { getFirestore } from 'firebase/firestore'
 const firebaseConfig1 = {
   apiKey: "AIzaSyA3fgOQa9S3_BWLv0TKukclIIo-b8MaQjc",
   authDomain: "hypnotic-trees-328016.firebaseapp.com",
@@ -23,4 +23,5 @@ const firebaseConfig2 = {
 // Initialize Firebase
 const KarbonBasarApp = initializeApp(firebaseConfig1);
 const harmonia_ekoApp = initializeApp(firebaseConfig2)
-const analytics = getAnalytics(harmonia_ekoApp)
+getAnalytics(harmonia_ekoApp)
+export default getFirestore(KarbonBasarApp)
