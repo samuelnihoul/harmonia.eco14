@@ -78,7 +78,7 @@ const FooterOne = () => (
                   <li>
                     <i className="icofont icofont-mail"></i>
                     <a href="mailto:contact@harmonia-eko.ooo">
-                      contact@harmonia-eko.ooo
+                      contact@harmonia.eco
                     </a>
                   </li>
                   <li>
