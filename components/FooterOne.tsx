@@ -53,7 +53,7 @@ const FooterOne = () => (
                     <a href={'/about'}>Our Services</a>
                   </li>
                   <li>
-                    <a href={'mailto:samuel@harmonia-eko.ooo?subject=Terms and Conditions'}>Terms &amp; Conditions</a>
+                    <a href={'mailto:samuel@harmonia.eco?subject=Terms and Conditions'}>Terms &amp; Conditions</a>
                   </li>
                   <li>
                     <a href={'/contact'}>Careers</a>
@@ -83,7 +83,7 @@ const FooterOne = () => (
                   </li>
                   <li>
                     <i className="icofont icofont-globe"></i>
-                    <a href={'https://harmonia-eko.ooo'}>harmonia-eko</a>
+                    <a href={'https://harmonia.eco'}>harmonia-eko</a>
                   </li>
                 </ul>
               </div>
