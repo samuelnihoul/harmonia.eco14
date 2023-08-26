@@ -9,7 +9,7 @@ import HeroVideo from "../components/Hero/HeroVideo";
 import Welcome from "../components/WelcomeSection/Welcome";
 import OurServices from "../components/OurServices/OurServices";
 import OurServicesTwo from "../components/OurServices/OurServicesTwo";
-import FooterOne from "../components/FooterOne";
+import FooterOne from "../components/Footer";
 import CounterOne from "../components/Counter";
 const StartupBusiness = () => {
   useEffect(() => {
@@ -36,11 +36,6 @@ const StartupBusiness = () => {
       />
       <CounterOne type="wide" bg={undefined} />
       <OurServicesTwo title="About Us" tagline="Part of the solution" />
-      {/*  <HeadingSection title="Latest Projects" tagline={undefined} classAppend={undefined} font={undefined} >
-      <Portfolio columns="4" layout="wide" filter="true" space={null} classAppend={null} data={portfolioData} type={undefined} />
-      </HeadingSection> */}
-      {/* <TestimonialsTwo title="Testimonials" tagline="Happy clients" /> */}
-      {/* <BlogSlider /> */}
       <FooterOne />
     </Loader>
   );
