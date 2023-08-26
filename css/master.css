@@ -1,76 +1,19 @@
-/*
-====================================
-[ CSS TABLE CONTENT ]
-------------------------------------
-    1.0 - General
-    2.0 - Typography
-    3.0 - Global Style
-    4.0 - Navigation
-    5.0 - Search Box
-    6.0 - Page Title Section
-    7.0 - Slider Section
-    8.0 - Creative Section
-    9.0 - Recent Project Section
-    9.1 - Overlay and hover effect
-    10.0 - Magnific Popup CSS
-    11.0 - Feature Section
-    12.0 - About Section
-    13.0 - Counter Section
-    14.0 - Team Section
-    15.0 - Video Section
-    16.0 - Service Section
-    17.0 - Process Section
-    18.0 - Portfolio Section
-    19.0 - Portfolio Single Page
-    20.0 - Partner Section
-    21.0 - Case study section
-    22.0 - Map Section
-    23.0 - Contact Section
-    24.0 - Footer Section
-    25.0 - Preloader
-    26.0 - Homepage Two
-    27.0 - Homepage Three
-    28.0 - About us Page
-    29.0 - About us page two
-    30.0 - Blog Page
-    31.0 - Blog Page Version Two
-    32.0 - Full Width Section
-    33.0 - Call to action section
-    34.0 - Client Testimonial Style
-    35.0 - Parallax Homepage
-    36.0 - Contact Page
-    37.0 - 404 page
-    38.0 - Flex slider customization
-	39.0 - Owl slider customization
-	40.0 - Slick slider customization
--------------------------------------
-[ END CSS TABLE CONTENT ]
-=====================================
-*/
-
-/* =============================================
-            	Theme Reset Style
-============================================= */
-/* @import url('https://fonts.googleapis.com/css?family=Cardo|Hind|Great+Vibes|Poppins|Jost:300,400,500,600,700|Josefin+Sans:300,400,600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Great+Vibes&family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;600&family=Jost:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caskaydia+Cove&display=swap');
 
-@font-face{
-font-family:"cascadia";
-src:url("/assets/fonts/cascadia.otf")
-}
 ::selection {
     background-color: #212121;
     color: #fff;
 }
-
+  
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 	min-height:0;
 	min-width:0;
 }
 *, :after, :before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 html,
 body {
@@ -81,7 +24,7 @@ body {
     color: #888;
     background: #f1f1f1;
     font-size:15px;
-	font-family: 'cascadia';
+	font-family: "Caskaydia Cove",normal;
 }
 
 .wrapper {
@@ -98,17 +41,17 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.hind-font{font-family: 'cascadia', sans-serif;}
-.poppins-font{font-family: 'cascadia', sans-serif;}
-.cardo-font{font-family: 'cascadia', serif!important;}
-.great-font{font-family: 'cascadia', cursive;}
-.josefin-font{font-family: 'cascadia', sans-serif;}
+.hind-font{font-family: "Caskaydia Cove", sans-serif;}
+.poppins-font{font-family: "Caskaydia Cove", sans-serif;}
+.cardo-font{font-family: "Caskaydia Cove", serif!important;}
+.great-font{font-family: "Caskaydia Cove", cursive;}
+.josefin-font{font-family: "Caskaydia Cove", sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {
     color: #212121;
     margin: 10px 0;
     font-style: normal;
-    font-family: 'cascadia';
+    font-family: "Caskaydia Cove";
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -1121,7 +1064,7 @@ button:focus {
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     font-weight: 500;
-    font-family: 'cascadia';
+    font-family: "Caskaydia Cove";
     letter-spacing: 1px;
 }
 
@@ -1771,7 +1714,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3838', end
 }
 .theme-feature h4{
 	color: #ff4452;
-	font-family: 'cascadia', monospace;
+	font-family: "Caskaydia Cove", monospace;
 	margin-bottom:20px;
 	font-size: 20px;
 }
@@ -1825,7 +1768,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3838', end
     color: #fff;
 	letter-spacing: 1px;
     font-weight: 700;
-    font-family: 'cascadia';
+    font-family: "Caskaydia Cove";
 }
 
 .footer .widget-text p {color:#fff;}
@@ -1842,7 +1785,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee3838', end
 
 .footer .widget-links{
   font-size: 16px;
-  font-family: 'cascadia';
+  font-family: "Caskaydia Cove";
 }
 
 .footer .widget-links li{
@@ -2767,7 +2710,7 @@ ul.footer-gallery li img {
 .progress-bar{
   font-size: 16px;
   color: #212121;
-  font-family: 'cascadia';
+  font-family: "Caskaydia Cove";
 }
 
 .progress{
@@ -2837,7 +2780,7 @@ ul.footer-gallery li img {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     content: attr(data-circle-text);
-    font-family: 'cascadia';
+    font-family: "Caskaydia Cove";
     color: #212121;
 }
 .progress-ring:after {
@@ -2848,7 +2791,7 @@ ul.footer-gallery li img {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     content: attr(data-circle-percent) "%";
-    font-family: 'cascadia';
+    font-family: "Caskaydia Cove";
     color: #212121;
 }
 .progress-ring-icon .progress-ring:before {
@@ -2857,7 +2800,7 @@ ul.footer-gallery li img {
     left: 50%;
     font-size: 18px;
     line-height: 1.4;
-    font-family: 'cascadia';
+    font-family: "Caskaydia Cove";
     transform: translate(-50%, -50%);
     content: attr(data-circle-text);
     color: #212121;
@@ -2884,7 +2827,7 @@ ul.footer-gallery li img {
 
 .testimonial-item h4, .testimonial-item h5 {
     color: #212121;
-	font-family: 'cascadia';
+	font-family: "Caskaydia Cove";
 }
 .testimonial-item h4 {
 	font-weight: 300;
@@ -2949,7 +2892,7 @@ ul.footer-gallery li img {
 .testimonial-carousel.testimonial-style-01 .image img {width: 78px;height: 78px;}
 .testimonial-carousel .testimonial-item .content{margin-top: 20px;}
 .testimonial-carousel .testimonial-item .cite {font-style: normal;}
-.testimonial-carousel .testimonial-item .name {display: block;font-size: 20px;line-height: 1.3;margin-bottom: 0;font-family: 'cascadia', sans-serif;}
+.testimonial-carousel .testimonial-item .name {display: block;font-size: 20px;line-height: 1.3;margin-bottom: 0;font-family: "Caskaydia Cove", sans-serif;}
 .testimonial-carousel .testimonial-item .position {display: block;font-size: 12px;font-weight: 500;text-transform: uppercase;letter-spacing: 1.38px;margin-top: 6px;}
 .testimonial-carousel.testimonial-style-01 .text{color: #777;font-style: italic;}
 .testimonial-carousel.testimonial-style-01 .testimonial-item .testimonial-content:after{display: none;}
@@ -3566,7 +3509,7 @@ ul.social-top li a{
 	text-transform:uppercase;
 	letter-spacing:2px;
   font-weight: 700;
-font-family: 'cascadia';
+font-family: "Caskaydia Cove";
 }
 
 .light-tabs .nav>li>a:focus,
@@ -3754,7 +3697,7 @@ font-family: 'cascadia';
 .accordion-style-01 .panel  {background: transparent; box-shadow: none; margin-top: 0 !important}
 .accordion-style-01.panel-group .panel-heading  {border: 0px; border-bottom: 1px solid #e4e4e4;}
 .accordion-style-01 .panel .panel-heading {padding: 16px 0;background-color: transparent;}
-.accordion-style-01 .panel-title {font-size: 20px; position: relative;font-family: 'cascadia', sans-serif;padding-right: 30px;font-weight: 600;}
+.accordion-style-01 .panel-title {font-size: 20px; position: relative;font-family: "Caskaydia Cove", sans-serif;padding-right: 30px;font-weight: 600;}
 .accordion-style-01 .panel-title span.float-right { position: absolute; right: 0;}
 .accordion-style-01 .panel-heading i {font-size: 16px; color: #212121}
 .accordion-style-01.panel-group .panel-heading+.panel-collapse>.list-group, .accordion-style-01.panel-group .panel-heading+.panel-collapse>.panel-body{border-top:0; padding: 25px 0; background-color: transparent;}
@@ -4073,7 +4016,7 @@ font-family: 'cascadia';
 .shop-cart > thead > tr > th {
   border-bottom: 1px solid #ececec;
   font-size: 13px;
-  font-family: 'cascadia';
+  font-family: "Caskaydia Cove";
   color: #212121;
   font-weight: 400;
   padding: 15px 20px;
@@ -4084,7 +4027,7 @@ font-family: 'cascadia';
   padding: 30px 8px;
   vertical-align: middle;
   font-size: 14px;
-  font-family: 'cascadia';
+  font-family: "Caskaydia Cove";
   font-weight: 400;
   border-bottom: 1px solid;
   border-color: #ececec;
@@ -4155,7 +4098,7 @@ font-family: 'cascadia';
 .order_table thead th {
   text-transform: uppercase;
   font-size: 14px;
-  font-family: 'cascadia';
+  font-family: "Caskaydia Cove";
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -4177,7 +4120,7 @@ font-family: 'cascadia';
   color: #888;
 }
 
-.order_table tbody td > span {font-family: 'cascadia';}
+.order_table tbody td > span {font-family: "Caskaydia Cove";}
 
 .order_table .shipping p {
   font-size: 14px;
@@ -4201,7 +4144,7 @@ form.register {
 }
 
 .checkout-form .form-group label {
-	font-family: 'cascadia', sans-serif;
+	font-family: "Caskaydia Cove", sans-serif;
 	font-size:13px;
 	font-weight:400;
 }
@@ -4368,13 +4311,13 @@ form.register {
 
 .error-message {
 	color: #FF3333;
-	font-family: "cascadia";
+	font-family: "Caskaydia Cove";
 	margin-top: 5px;
 }
 
 .success-message {
 	color:#33cc33;
-	font-family: "cascadia";
+	font-family: "Caskaydia Cove";
 	margin-top: 5px;
 }
 
@@ -4408,11 +4351,11 @@ form.register {
 -------------------------------------------*/
 .cta-block hr{height: 1px;border-top: 1px solid #ebebeb;display: block;position: relative;top: 1px;width: 100%;border-color: rgba(136,136,136,0.8);}
 .cta-heading-left{text-align: left;}
-.cta-heading-left .subtitle{color: #fff;text-transform: uppercase;font-family: 'cascadia';font-weight: 400;}
-.cta-heading-left h3{font-size: 50px;color: #fff;font-family: 'cascadia';font-weight: 700;line-height: 1.4;}
+.cta-heading-left .subtitle{color: #fff;text-transform: uppercase;font-family: "Caskaydia Cove";font-weight: 400;}
+.cta-heading-left h3{font-size: 50px;color: #fff;font-family: "Caskaydia Cove";font-weight: 700;line-height: 1.4;}
 
 .cta-heading-right{text-align: left;}
-.cta-heading-right .content-text{font-size: 16px;color: #fff;font-family: 'cascadia';font-weight: 400;line-height: 1.5;}
+.cta-heading-right .content-text{font-size: 16px;color: #fff;font-family: "Caskaydia Cove";font-weight: 400;line-height: 1.5;}
 
 
 /* ----------------------------------------
