@@ -22,6 +22,6 @@ const firebaseConfig2 = {
 
 // Initialize Firebase
 const KarbonBasarApp = initializeApp(firebaseConfig1);
-const harmonia_ekoApp = initializeApp(firebaseConfig2)
-getAnalytics(harmonia_ekoApp)
+// const harmonia_ekoApp = initializeApp(firebaseConfig2)
+// getAnalytics(harmonia_ekoApp)
 export default getFirestore(KarbonBasarApp)

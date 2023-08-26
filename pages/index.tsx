@@ -9,8 +9,8 @@ import HeroVideo from "../components/Hero/HeroVideo";
 import Welcome from "../components/WelcomeSection/Welcome";
 import OurServices from "../components/OurServices/OurServices";
 import OurServicesTwo from "../components/OurServices/OurServicesTwo";
-import FooterOne from "../components/Footer/FooterOne";
-import CounterOne from "../components/Counters/CounterOne";
+import FooterOne from "../components/FooterOne";
+import CounterOne from "../components/Counter";
 const StartupBusiness = () => {
   useEffect(() => {
     AOS.init();
