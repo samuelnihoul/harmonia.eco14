@@ -3,7 +3,7 @@ import Loader from "../components/Loader/Loader";
 import HeaderOne from "../components/Header/HeaderOne";
 import PageTitleWidget from "../components/PageTitle/PageTitleWidget";
 
-import FooterOne from "../components/Footer/FooterOne";
+import FooterOne from "../components/Footer";
 
 const Career = () => (
   <Loader>
@@ -19,7 +19,6 @@ const Career = () => (
             <h2 className="mt-80 font-700">Benefits</h2>
             <p>
               Benefits may include:
-
               - interest on result,
               - equity,
               - free carbon offsets,
