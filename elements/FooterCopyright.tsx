@@ -1,5 +1,5 @@
 import React from "react";
-import dataSocial from "../../data/Social/social-footer.json";
+import dataSocial from "../data/Social/social-footer.json";
 // import the fontawesome component
 const year = new Date().getFullYear();
 const FooterCopyright = () => (

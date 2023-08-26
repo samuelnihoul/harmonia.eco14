@@ -7,7 +7,7 @@
 
 @font-face{
   font-family:"cascadia";
-  src:"/assets/fonts/Caskaydia Cove Nerd Font Complete Regular.otf";
+  src:"/public/assets/fonts/Caskaydia.otf";
 }
 *{
   font-family:"cascadia";

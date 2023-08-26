@@ -1,14 +1,37 @@
-[
+[{
+        "id": 1,
+        "name": "Natnael Zeleke",
+        "role": "Advisor",
+        "image": "team/n.jpg",
+        "social": [
+            {
+                "id": 1,
+                "icon": "linkedin",
+                "link": "https://www.linkedin.com/in/natnael-getenew-%E9%AB%98%E9%92%A8%E7%BB%A9/"
+            }
+            ,
+            {
+                "id":2,
+                "icon":"twitter",
+                "link":"https://twitter.com/zea1shama"
+            }
+        ]
+    },
     {
         "id": 3,
         "name": "Samuel Nihoul",
         "role": "Self-Employed",
-        "image": "team/56298366_682963422153970_4175178875703132160_n.jpg",
+        "image": "team/mirr.jpg",
         "social": [
             {
                 "id": 1,
                 "icon": "linkedin",
                 "link": "https://linkedin.com/in/samuelnihoul"
+            },
+            {
+                "id":2,
+                "icon":"twitter",
+                "link":"https://twitter.com/samuelnihoul"
             }
         ]
     }

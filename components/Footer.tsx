@@ -1,5 +1,5 @@
 import React from "react";
-import FooterCopyright from "./FooterCopyright";
+import FooterCopyright from "../elements/FooterCopyright";
 const logoFooter = "/assets/images/D21.png"
 const FooterOne = () => (
   <>
@@ -53,7 +53,7 @@ const FooterOne = () => (
                     <a href={'/about'}>Our Services</a>
                   </li>
                   <li>
-                    <a href={'mailto:samuel@harmonia-eko.ooo?subject=Terms and Conditions'}>Terms &amp; Conditions</a>
+                    <a href={'mailto:samuel@harmonia.eco?subject=Terms and Conditions'}>Terms &amp; Conditions</a>
                   </li>
                   <li>
                     <a href={'/contact'}>Careers</a>
@@ -78,12 +78,12 @@ const FooterOne = () => (
                   <li>
                     <i className="icofont icofont-mail"></i>
                     <a href="mailto:contact@harmonia-eko.ooo">
-                      contact@harmonia-eko.ooo
+                      contact@harmonia.eco
                     </a>
                   </li>
                   <li>
                     <i className="icofont icofont-globe"></i>
-                    <a href={'https://harmonia-eko.ooo'}>harmonia-eko</a>
+                    <a href={'https://harmonia.eco'}>harmonia-eko</a>
                   </li>
                 </ul>
               </div>

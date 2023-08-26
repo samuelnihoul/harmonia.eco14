@@ -3,9 +3,9 @@ import Loader from "../components/Loader/Loader";
 import HeaderOne from "../components/Header/HeaderOne";
 import PageTitleAbout from "../components/PageTitle/PageTitleAbout";
 import WhoWeAreSeven from "../components/WhoWeAre/WhoWeAreSeven";
-import CounterOne from "../components/Counters/CounterOne";
+import CounterOne from "../components/Counter";
 import OurTeamTwo from "../components/Team/OurTeamTwo";
-import FooterOne from "../components/Footer/FooterOne";
+import FooterOne from "../components/Footer";
 
 const AboutUs = () => (
   <Loader>
@@ -16,7 +16,7 @@ const AboutUs = () => (
     />
     <WhoWeAreSeven />
     <CounterOne type="wide" bg={undefined} />
-    <OurTeamTwo title="MEET OUR TEAM" tagline="Together WE ARE STRONGER"  />
+    <OurTeamTwo title="MEET OUR TEAM" tagline="Together WE ARE STRONGER" />
     <FooterOne />
   </Loader>
 );
