@@ -1,20 +1,24 @@
 import React from "react";
 import dataSocial from "../data/social-data.json";
-// import the fontawesome component
+
 const year = new Date().getFullYear();
-const FooterCopyright = () => (
+
+export default () => (
   <div className="footer-copyright">
     <div className="container">
       <div className="row">
         <div className="col-md-6 col-xs-12">
           <ul className="social-media">
-            {dataSocial.filter((v, i) => i < 5).map((item) => (
-              <li key={item.icon}>
-                <a href={item.link}>
-                  <i className={`icofont-${item.icon}`}></i>
-                </a>
-              </li>
-            ))}
+            {
+              dataSocial.map((item) => (
+                <li key={item.icon}>
+                  <a href={item.link}>
+                    <i className={`icofont-${item.icon}`}></i>
+                  </a>
+                </li>
+              )
+              )
+            }
           </ul>
         </div>
         <div className="col-md-6 col-xs-12">
@@ -27,4 +31,3 @@ const FooterCopyright = () => (
   </div >
 );
 
-export default FooterCopyright;
