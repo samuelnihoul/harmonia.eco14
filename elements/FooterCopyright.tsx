@@ -9,10 +9,9 @@ const FooterCopyright = () => (
         <div className="col-md-6 col-xs-12">
           <ul className="social-media">
             {dataSocial.filter((v, i) => i < 5).map((item) => (
-              <li key={item.id}>
+              <li key={item.icon}>
                 <a href={item.link}>
-                  {/* @tsignore */}
-                  <img src={`/assets/SVGs/${item.icon}`} />
+                  <i className={`icofont-${item.icon}`}></i>
                 </a>
               </li>
             ))}
