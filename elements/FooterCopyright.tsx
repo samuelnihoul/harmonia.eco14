@@ -13,7 +13,7 @@ export default () => (
               dataSocial.map((item) => (
                 <li key={item.icon}>
                   <a href={item.link}>
-                    <i className={`icofont-${item.icon}`}></i>
+                    <i className={`icofont-users-social icofont-${item.icon}`}></i>{' ' + item.icon}
                   </a>
                 </li>
               )
