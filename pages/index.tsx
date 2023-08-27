@@ -2,13 +2,11 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Loader from "../components/Loader/Loader";
-import dataStartup from "../data/Slider/startup-business-data.json";
 const serviceOneImg = "/assets/images/man.jpg";
 import HeaderOne from "../components/Header/HeaderOne";
 import HeroVideo from "../components/Hero/HeroVideo";
 import Welcome from "../components/WelcomeSection/Welcome";
-import OurServices from "../components/OurServices/OurServices";
-import OurServicesTwo from "../components/OurServices/OurServicesTwo";
+import OurServicesTwo from "../components/OurServices";
 import FooterOne from "../components/Footer";
 import CounterOne from "../components/Counter";
 const StartupBusiness = () => {
@@ -19,7 +17,7 @@ const StartupBusiness = () => {
   return (
     <Loader>
       <HeaderOne type={undefined} />
-      <HeroVideo data={dataStartup} />
+      <HeroVideo data={undefined} />
 
       <Welcome title="What We Do" tagline="The way we work is harmonious">
         We run different Regenerative Finance applications:
