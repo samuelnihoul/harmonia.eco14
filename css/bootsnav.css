@@ -55,7 +55,7 @@ nav.navbar.bootsnav ul.nav > li > a{
     outline: none;
     margin-bottom: -2px;
 	text-transform: uppercase;
-    font-family: 'cascadia';
+    font-family: 'Caskaydia Cove';
     letter-spacing: 0.10em;
 	font-size: 14px;
   font-weight: 500;
@@ -608,7 +608,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
     nav.navbar.bootsnav li.dropdown ul.dropdown-menu > li > a{
         padding: 10px 15px;
         color: #212121;
-        font-family: 'cascadia';
+        font-family: 'Caskaydia Cove';
         font-weight: 400;
     }
 
@@ -681,7 +681,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         margin-bottom: 0;
         border-bottom: none;
         color: #272625;
-        font-family: 'cascadia';
+        font-family: 'Caskaydia Cove';
         font-weight: 400;
     }
 

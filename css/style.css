@@ -6,11 +6,11 @@
 @import "responsive.css";
 
 @font-face{
-  font-family:"cascadia";
+  font-family:"Caskaydia Cove";
   src:"/public/assets/fonts/Caskaydia.otf";
 }
 *{
-  font-family:"cascadia";
+  font-family:"Caskaydia Cove";
 }
 /* Here you can CHANGE COLORS of the theme
    Secondary color is used for some hover on buttons.
@@ -338,7 +338,7 @@ a.isDisabled:focus {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 700;
-  font-family: "cascadia";
+  font-family: "Caskaydia Cove";
   display: block;
   padding: 10px 15px;
   cursor: pointer;
@@ -520,7 +520,7 @@ a.isDisabled:focus {
   color: var(--main-color) !important;
   font-size: 20px;
   position: relative;
-  font-family: "cascadia", sans-serif;
+  font-family: "Caskaydia Cove", sans-serif;
   padding-right: 30px;
   font-weight: 600;
   padding: 16px 0 !important;
