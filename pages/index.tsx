@@ -6,7 +6,8 @@ const serviceOneImg = "/assets/images/man.jpg";
 import HeaderOne from "../components/Header/HeaderOne";
 import HeroVideo from "../components/Hero/HeroVideo";
 import Welcome from "../components/WelcomeSection/Welcome";
-import OurServicesTwo from "../components/OurServices";
+import OurServices from "../components/OurServices";
+import OurServices2 from '../components/OurServices2'
 import FooterOne from "../components/Footer";
 import CounterOne from "../components/Counter";
 const StartupBusiness = () => {
@@ -16,8 +17,8 @@ const StartupBusiness = () => {
   }, []);
   return (
     <Loader>
-      <HeaderOne type={undefined} />
-      <HeroVideo data={undefined} />
+      <HeaderOne type={''} />
+      <HeroVideo data={''} />
 
       <Welcome title="What We Do" tagline="The way we work is harmonious">
         We run different Regenerative Finance applications:
@@ -26,14 +27,13 @@ const StartupBusiness = () => {
           <li>more in development.</li>
         </ul>
       </Welcome>
-      <OurServices
+      <OurServices2
         title="Our Focus"
         tagline="We help implementing your ambitions of ecoharmony."
         serviceImg={serviceOneImg}
-        children={null}
       />
       <CounterOne type="wide" bg={undefined} />
-      <OurServicesTwo title="About Us" tagline="Part of the solution" />
+      <OurServices title="About Us" tagline="Part of the solution" />
       <FooterOne />
     </Loader>
   );
