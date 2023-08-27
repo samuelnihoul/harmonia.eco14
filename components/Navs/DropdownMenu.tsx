@@ -1,6 +1,6 @@
 import React from "react";
 import DropdownItem from "./DropdownItem";
-import dataNav from "../../data/Navbar/navbar-data.json";
+import dataNav from "../../data/navbar-data.json";
 import useWindowResizeListener from "../../helpers/useWindowResizeListener";
 
 const DropdownMenu = () => {
@@ -13,22 +13,22 @@ const DropdownMenu = () => {
         {dataNav.map((dropdown, i) => (
           <li
             className={
-              "dropdown nav-item " 
+              "dropdown nav-item "
             }
             key={i}
           >
-{dropdown.subMenu?<><a className="nav-link" data-toggle="dropdown">{dropdown.title}</a>            
-            <DropdownItem
+            {dropdown.subMenu ? <><a className="nav-link" data-toggle="dropdown">{dropdown.title}</a>
+              <DropdownItem
                 item={dropdown.subMenu}
-              /></>:
-<a href={dropdown.link} className="nav-link" data-toggle="dropdown">
+              /></> :
+              <a href={dropdown.link} className="nav-link" data-toggle="dropdown">
 
-              {dropdown.title}
-            </a>
+                {dropdown.title}
+              </a>
 
             }
 
-            
+
           </li>
         ))}
       </ul>

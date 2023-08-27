@@ -1,8 +1,8 @@
 import React, { forwardRef } from "react";
-import dataServices from "../../data/Services/our-services-two.json";
-import ServiceBox from "./ServiceBox";
+import dataServices from "../data/our-services.json";
+import ServiceBox from "../elements/ServiceBox";
 
-function OurServices({ serviceImg, title, tagline, children }): JSX.Element {
+function OurServices({ serviceImg, title, tagline }: { serviceImg: string, title: string, tagline: string }): JSX.Element {
   return (
     <section className="white-bg" id="service">
       <div className="col-md-6 col-sm-4 bg-flex bg-flex-left">

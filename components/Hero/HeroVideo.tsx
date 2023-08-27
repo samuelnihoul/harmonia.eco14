@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './Hero.module.css';
-import SliderButtons from "../../elements/SliderButtons/SliderButtons";
+import data from '../../data/hero-data'
 
-const Hero = ({ data }) => {
+const Hero = () => {
   return (
     <section className={styles.localHero}>
       <div style={{ maxWidth: "700px", textAlign: "center" }}>
