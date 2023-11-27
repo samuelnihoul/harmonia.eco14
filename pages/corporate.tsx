@@ -6,16 +6,16 @@ const Corporate = () => {
             <h1>Corporate Services</h1>
             <ul className=''>
                 <li>
-                    - Carbon Markets Consulting
+                    - Carbon Markets Consulting,
                 </li>
                 <li>
-                    - Sustainability and Impact Consulting
+                    - Sustainability and Impact Consulting,
                 </li>
                 <li>
-                    - Carbon Offset Management
+                    - Carbon Offset Management,
                 </li>
                 <li>
-                    - Carbon Accounting
+                    - Carbon Accounting,
                 </li>
                 <li>
                     - "1% for climate" Certifications and Solutions, Including Communication and Marketing Solutions.
