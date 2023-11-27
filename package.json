@@ -5,13 +5,15 @@
     "@mui/system": "^5.11.5",
     "@vercel/analytics": "^1.0.2",
     "aos": "^2.3.4",
+    "autoprefixer": "^10.4.16",
     "bootstrap": "^5.2.3",
     "dotenv": "^16.0.3",
     "firebase": "^9.15.0",
     "html-react-parser": "^3.0.8",
     "i18next": "^22.4.11",
     "i18next-browser-languagedetector": "^7.0.1",
-    "next": "^13.1.2",
+    "next": "^14.0.2",
+    "postcss": "^8.4.31",
     "rc-collapse": "^3.5.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
@@ -23,14 +25,15 @@
     "react-scrollspy": "^3.4.3",
     "react-tabs": "^6.0.0",
     "react-visibility-sensor": "^5.1.1",
-    "swiper": "^8.4.6"
+    "swiper": "^8.4.6",
+    "tailwindcss": "^3.3.5"
   },
   "licence": "ISP",
   "devDependencies": {
     "@types/aos": "^3.0.4",
     "@types/node": "^18.11.18",
     "@types/react": "18.0.26",
-    "typescript": "4.9.4"
+    "typescript": "^5.2.4"
   },
   "scripts": {
     "dev": "next dev",
