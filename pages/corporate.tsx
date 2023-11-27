@@ -19,6 +19,7 @@ const Corporate = () => {
                 </li>
                 <li>
                     - "1% for climate" Certifications and Solutions, Including Communication and Marketing Solutions.
+                    <p>For example, we emit a logo in the fashion of "1% for the planet".</p>
                 </li>
             </ul>
             <p>Contact us at contact@harmonia.eco</p>
