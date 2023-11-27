@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useEffect, useCallback } from "react";
 import DropdownMenu from "../Navs/DropdownMenu";
 import SearchOverlay from "../../elements/SearchOverlay";
@@ -11,7 +12,7 @@ const HeaderOne = ({ type }) => {
   const showMenu = () => {
     setCollapse(!collapse);
     const menu = document.getElementById("navbar-menu");
-    collapse ? menu.classList.remove("in") : menu.classList.add("in");
+    collapse ? menu?.classList.remove("in") : menu?.classList.add("in");
   };
 
   const handleScroll = useCallback(() => {
@@ -22,32 +23,20 @@ const HeaderOne = ({ type }) => {
     }
   }, []);
 
-  const resizeForm = useCallback(() => {
-    var wHeight = window.innerHeight;
-    const searchForm = document.getElementById("fullscreen-searchform");
-    searchForm.style.top = wHeight / 2 + "px";
-  }, []);
 
-  const showSearchForm = (e:any) => {
-    e.preventDefault();
-    setShow(true);
-    resizeForm();
-  };
 
-  const hideSearchForm = (e:any) => {
+  const hideSearchForm = (e: any) => {
     e.preventDefault();
     setShow(false);
   };
 
   useEffect(() => {
-    window.addEventListener("resize", resizeForm);
     window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("resize", resizeForm);
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [resizeForm, handleScroll]);
+  }, [handleScroll]);
 
   return (
     <>
@@ -68,10 +57,10 @@ const HeaderOne = ({ type }) => {
           >
             <i className="icofont-navigation-menu"></i>
           </button>
-            <MainLogo  ></MainLogo>
+          <MainLogo  ></MainLogo>
           <DropdownMenu />
           <AttributeNav>
-            <CartSearchTop showSearchForm={showSearchForm} />
+            <CartSearchTop showSearchForm={undefined} />
 
 
           </AttributeNav>

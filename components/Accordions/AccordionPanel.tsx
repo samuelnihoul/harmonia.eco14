@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const AccordionPanel = ({ title, children }) => {
 
-  const [active, setActive] = useState(undefined);
+  const [active, setActive] = useState(false);
 
   const toggleOpen = () => {
     setActive(!active);
