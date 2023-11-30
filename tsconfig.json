@@ -24,9 +24,9 @@
       }
     ],
     "strictNullChecks": false,
-    "paths":[
-      "@/*":"./*"
-    ]
+    "paths":{
+      "@/*":["./*"]
+    } 
   },
   "include": [
     "next-env.d.ts",
