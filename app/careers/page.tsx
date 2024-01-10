@@ -1,9 +1,9 @@
 import React from "react";
-import Loader from "../components/Loader/Loader";
-import HeaderOne from "../components/Header/HeaderOne";
-import PageTitleWidget from "../components/PageTitle/PageTitleWidget";
+import Loader from "@components/Loader/Loader";
+import HeaderOne from "@components/Header/HeaderOne";
+import PageTitleWidget from "@components/PageTitle/PageTitleWidget";
 
-import FooterOne from "../components/Footer";
+import FooterOne from "@components/Footer";
 
 const Career = () => (
   <Loader>

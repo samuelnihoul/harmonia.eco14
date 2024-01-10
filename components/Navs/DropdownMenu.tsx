@@ -1,12 +1,8 @@
 import React from "react";
 import DropdownItem from "./DropdownItem";
 import dataNav from "../../data/navbar-data.json";
-import useWindowResizeListener from "../../helpers/useWindowResizeListener";
 
 const DropdownMenu = () => {
-
-  useWindowResizeListener();
-
   return (
     <div className="collapse navbar-collapse" id="navbar-menu">
       <ul className="nav navbar-nav" data-in="fadeIn" data-out="fadeOut">

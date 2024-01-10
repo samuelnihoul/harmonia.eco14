@@ -1,7 +1,8 @@
+"use client"
 import React, { useState, useEffect } from "react";
 import CountUp from "react-countup";
 import VisibilitySensor from "react-visibility-sensor";
-import db from '../helpers/firebase'
+import db from '@/lib/firebase'
 import { getDocs, DocumentData, collection } from 'firebase/firestore'
 const CounterOne = ({ bg, type }) => {
   const [viewed, setViewed] = useState(false);
@@ -43,7 +44,6 @@ const CounterOne = ({ bg, type }) => {
                 }
               >
                 <VisibilitySensor onChange={viewChangeHandler} delayedCall>
-                  {/* I don't know why `counter.decimals` is not working */}
                   <CountUp decimals={0} end={viewed ? data[key] : 0} />
 
 

@@ -1,10 +1,7 @@
 import React from 'react'
-//Show the latest news about climate change
-//Using an external API
-//Fix the 'window is not defined error'
-import HeaderOne from '../components/Header/HeaderOne';
-import FooterOne from '../components/Footer';
-import Loader from '../components/Loader/Loader';
+import HeaderOne from '@components/Header/HeaderOne';
+import FooterOne from '@components/Footer';
+import Loader from '@components/Loader/Loader';
 import styles from './anomalyMap.module.css'
 export default function News() {
     return (

@@ -1,9 +1,7 @@
 import React from "react";
 import Link from 'next/link';
-import Loader from "../components/Loader/Loader";
 
 const Page404 = () => (
-  <Loader>
     <section className="vh-height page_404 white-bg">
       <div className="container">
         <div className="row">
@@ -20,7 +18,6 @@ const Page404 = () => (
                 <p className="mt-30">
                   <Link href="/" >
                     <a className="btn btn-color btn-square">GO TO HOME</a>
-
                   </Link>
                 </p>
               </div>
@@ -29,7 +26,6 @@ const Page404 = () => (
         </div>
       </div>
     </section>
-  </Loader>
 );
 
 export default Page404;

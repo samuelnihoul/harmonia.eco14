@@ -1,10 +1,16 @@
-import React from "react";
-import '../css/style.css'
-import "bootstrap/dist/css/bootstrap.min.css";
-import '../public/icofont/icofont.min.css'
-export default function App({ Component, pageProps }) {
-    return (<>
-        <Component className="App" {...pageProps} />
-    </>
+import React, {Suspense}from "react";
+import Navbar from '@/components/Header/HeaderOne'
+import Footer from '@/components/Footer'
+export default function App({children}:{children:ReactNode}) {
+    return (
+    <html>
+    <body>
+    <Suspense>
+    <Navbar/>
+    {children}
+    <Footer/>
+    </Suspense>
+        </body>
+    </html>
     )
 }

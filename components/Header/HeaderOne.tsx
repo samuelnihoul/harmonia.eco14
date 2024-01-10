@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useEffect, useCallback } from "react";
 import DropdownMenu from "../Navs/DropdownMenu";
 import SearchOverlay from "../../elements/SearchOverlay";
