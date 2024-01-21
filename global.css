@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.google.com/comfortaa");
+
+body {
+    font-family: 'comfortaa sans-serif';
+}
