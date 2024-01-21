@@ -27,6 +27,11 @@
                 "link": "/corporate",
                 "title": "Corporate",
                 "subMenu": []
+            },
+            {
+                "link": "https://dukan.harmonia.eco",
+                "title": "Dukan",
+                "subMenu": []
             }
         ]
     },
