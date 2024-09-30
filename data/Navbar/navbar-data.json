@@ -12,21 +12,6 @@
                 "link": "https://karbonmoneta.harmonia.eco",
                 "title": "Karbon Moneta",
                 "subMenu": []
-            },
-            {
-                "link": "https://tarif.harmonia.eco",
-                "title": "Tarif",
-                "subMenu": []
-            },
-            {
-                "link": "https://priorite.harmonia.eco",
-                "title": "Priorite",
-                "subMenu": []
-            },
-            {
-                "link": "/corporate",
-                "title": "Corporate",
-                "subMenu": []
             }
         ]
     },
